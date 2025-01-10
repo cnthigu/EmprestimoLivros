@@ -1,0 +1,48 @@
+﻿@model IEnumerable<EmprestimosModel>
+
+
+
+<div class="container">
+
+    <div class="d-flex justify-content-between align-items-center mb-5">
+    <h1>Emprestimos</h1>
+        <a class="btn btn-success mx-2" asp-controller="Emprestimo" asp-action="Cadastrar"><i class="bi bi-laptop mx-1"></i>Cadastrar Emprestimos</a>
+	</div>
+
+    @if (TempData["MessagemSucesso"] != null)
+    {
+        <div class="alert alert-success text-dark" role="alert">
+            @TempData["MessagemSucesso"]
+        </div>
+    }
+
+<table id="Emprestimos"class="table table-light  table-hover mt-5">
+    <thead>
+        <tr>
+            <th scope="col">Recebedor</th>
+            <th scope="col">Fornecedor</th>
+            <th scope="col">Livro</th>
+            <th scope="col">UltimaAtualição</th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @if (Model != null)
+        {
+            foreach (var Emprestimos in Model)
+			{
+				<tr>
+                    <th scope="row">@Emprestimos.Recebedor</th>
+                    <td>@Emprestimos.Fornecedor</td>
+                    <td>@Emprestimos.LivroEmprestimo</td>
+                    <td>@Emprestimos.DataDevolucao</td>
+                    <td>
+                        <a class="btn btn-warning mx-2" asp-controller="Emprestimo" asp-action="Editar" asp-route-id="@Emprestimos.Id"><i class="bi bi-database-fill-add mx-1"></i>Editar</a>
+                        <a class="btn btn-danger" asp-controller="Emprestimo" asp-action="Excluir" asp-route-id="@Emprestimos.Id"><i class="bi bi-database-fill-x mx-1"></i>Excluir</a>
+                   </td>
+				</tr>
+			}
+        }
+    </tbody>
+</table>
+</div>
