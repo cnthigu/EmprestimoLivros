@@ -6,7 +6,13 @@
 
     <div class="d-flex justify-content-between align-items-center mb-5">
     <h1>Emprestimos</h1>
-        <a class="btn btn-success mx-2" asp-controller="Emprestimo" asp-action="Cadastrar"><i class="bi bi-laptop mx-1"></i>Cadastrar Emprestimos</a>
+    <div>
+
+            <a class="btn btn-success mx-2" asp-controller="Emprestimo" asp-action="Cadastrar"><i class="bi bi-laptop mx-1"></i>Cadastrar Emprestimos</a>
+            <a class="btn btn-success mx-2" asp-controller="Emprestimo" asp-action="Exportar"><i class="bi bi-laptop mx-1"></i>Exportar em PDF</a>
+
+    </div>
+        
 	</div>
 
     @if (TempData["MessagemSucesso"] != null)

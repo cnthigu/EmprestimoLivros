@@ -170,3 +170,12 @@ C:\Users\HIGORV\source\repos\Emprestimos\Emprestimos\obj\Debug\net8.0\refint\Emp
 C:\Users\HIGORV\source\repos\Emprestimos\Emprestimos\obj\Debug\net8.0\Emprestimos.pdb
 C:\Users\HIGORV\source\repos\Emprestimos\Emprestimos\obj\Debug\net8.0\Emprestimos.genruntimeconfig.cache
 C:\Users\HIGORV\source\repos\Emprestimos\Emprestimos\obj\Debug\net8.0\ref\Emprestimos.dll
+C:\Users\HIGORV\source\repos\Emprestimos\Emprestimos\obj\Debug\net8.0\Emprestimos.sourcelink.json
+C:\Users\HIGORV\source\repos\Emprestimos\Emprestimos\bin\Debug\net8.0\ClosedXML.dll
+C:\Users\HIGORV\source\repos\Emprestimos\Emprestimos\bin\Debug\net8.0\ClosedXML.Parser.dll
+C:\Users\HIGORV\source\repos\Emprestimos\Emprestimos\bin\Debug\net8.0\DocumentFormat.OpenXml.dll
+C:\Users\HIGORV\source\repos\Emprestimos\Emprestimos\bin\Debug\net8.0\DocumentFormat.OpenXml.Framework.dll
+C:\Users\HIGORV\source\repos\Emprestimos\Emprestimos\bin\Debug\net8.0\ExcelNumberFormat.dll
+C:\Users\HIGORV\source\repos\Emprestimos\Emprestimos\bin\Debug\net8.0\RBush.dll
+C:\Users\HIGORV\source\repos\Emprestimos\Emprestimos\bin\Debug\net8.0\SixLabors.Fonts.dll
+C:\Users\HIGORV\source\repos\Emprestimos\Emprestimos\bin\Debug\net8.0\System.IO.Packaging.dll

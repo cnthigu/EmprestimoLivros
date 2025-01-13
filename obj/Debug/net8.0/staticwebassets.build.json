@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "sdb2hXdqowkRjNEK3ZTX5EovlzNOmBO9RMKGp16rFDk=",
+  "Hash": "U+k3wTC/8pMmd/+A9V7Cn7cKSRQGobcMVec/W0jXmuE=",
   "Source": "Emprestimos",
   "BasePath": "_content/Emprestimos",
   "Mode": "Default",
@@ -1774,7 +1774,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 10 Jan 2025 18:15:28 GMT"
+          "Value": "Fri, 10 Jan 2025 18:16:02 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1819,7 +1819,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 10 Jan 2025 18:15:28 GMT"
+          "Value": "Fri, 10 Jan 2025 18:16:02 GMT"
         },
         {
           "Name": "Cache-Control",

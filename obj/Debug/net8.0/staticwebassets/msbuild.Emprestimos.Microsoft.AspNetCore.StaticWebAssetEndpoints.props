@@ -52,13 +52,13 @@
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\site.js'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"a3f1uqh9xu"},{"Name":"integrity","Value":"sha256-ptgviJ43GlkCRdoS3jcyEmKXKRIPPWhsvzi\u002BkyNX3/g="},{"Name":"label","Value":"_content/Emprestimos/js/site.js"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1186"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022ptgviJ43GlkCRdoS3jcyEmKXKRIPPWhsvzi\u002BkyNX3/g=\u0022"},{"Name":"Last-Modified","Value":"Fri, 10 Jan 2025 18:15:28 GMT"}]]]></ResponseHeaders>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1186"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022ptgviJ43GlkCRdoS3jcyEmKXKRIPPWhsvzi\u002BkyNX3/g=\u0022"},{"Name":"Last-Modified","Value":"Fri, 10 Jan 2025 18:16:02 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/Emprestimos/js/site.js">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\site.js'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-ptgviJ43GlkCRdoS3jcyEmKXKRIPPWhsvzi\u002BkyNX3/g="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"1186"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022ptgviJ43GlkCRdoS3jcyEmKXKRIPPWhsvzi\u002BkyNX3/g=\u0022"},{"Name":"Last-Modified","Value":"Fri, 10 Jan 2025 18:15:28 GMT"}]]]></ResponseHeaders>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"1186"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022ptgviJ43GlkCRdoS3jcyEmKXKRIPPWhsvzi\u002BkyNX3/g=\u0022"},{"Name":"Last-Modified","Value":"Fri, 10 Jan 2025 18:16:02 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/Emprestimos/lib/bootstrap/dist/css/bootstrap-grid.agp80tu62r.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\bootstrap\dist\css\bootstrap-grid.css'))</AssetFile>
