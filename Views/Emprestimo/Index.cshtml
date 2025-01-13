@@ -21,6 +21,12 @@
             @TempData["MessagemSucesso"]
         </div>
     }
+    @if (TempData["MessagemErro"] != null)
+    {
+        <div class="alert alert-danger text-dark" role="alert">
+            @TempData["MessagemErro"]
+        </div>
+    }
 
 <table id="Emprestimos"class="table table-light  table-hover mt-5">
     <thead>

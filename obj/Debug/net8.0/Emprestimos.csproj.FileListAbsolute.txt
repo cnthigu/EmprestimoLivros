@@ -179,3 +179,4 @@ C:\Users\HIGORV\source\repos\Emprestimos\Emprestimos\bin\Debug\net8.0\ExcelNumbe
 C:\Users\HIGORV\source\repos\Emprestimos\Emprestimos\bin\Debug\net8.0\RBush.dll
 C:\Users\HIGORV\source\repos\Emprestimos\Emprestimos\bin\Debug\net8.0\SixLabors.Fonts.dll
 C:\Users\HIGORV\source\repos\Emprestimos\Emprestimos\bin\Debug\net8.0\System.IO.Packaging.dll
+C:\Users\HIGORV\source\repos\Emprestimos\Emprestimos\bin\Debug\net8.0\Newtonsoft.Json.dll

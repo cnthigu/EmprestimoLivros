@@ -1,0 +1,40 @@
+﻿@using Emprestimos.Dto
+@model UsuarioLoginDto
+@{
+    Layout = "_LayoutDeslogada";
+}
+
+
+@if (TempData["MessagemSucesso"] != null)
+{
+    <div class="alert alert-success text-dark" role="alert">
+        @TempData["MessagemSucesso"]
+    </div>
+}
+@if (TempData["MessagemErro"] != null)
+{
+    <div class="alert alert-danger text-dark" role="alert">
+        @TempData["MessagemErro"]
+    </div>  
+}
+
+<div asp-validation-summary="All" class="text-danger"></div>
+
+<div class="container">
+    <form asp-action="Login" asp-controller="" method="post">
+        <div class="mb-3">
+            <label for="email" class="form-label">Email: </label>
+            <input type="email" class="form-control" id="email" asp-for="Email">
+
+        </div>
+        <div class="mb-3">
+            <label for="senha" class="form-label">Senha: </label>
+            <input type="password" class="form-control" id="senha" asp-for="Senha">
+        </div>
+        <div class="d-flex justify-content-center">
+            @* centraliza o botaao *@
+            <button type="submit" class="btn btn-primary w-25 mx-2">Entrar</button>
+            <button type="submit" asp-action ="Registrar" asp-controller ="Login" class="btn btn-primary w-25 mx-2">Registrar-se</button>
+        </div>
+    </form>
+</div>

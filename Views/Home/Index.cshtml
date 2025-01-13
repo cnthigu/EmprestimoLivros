@@ -1,26 +1,19 @@
-﻿@model EmprestimosModel
-@{
-
-    ViewData["Title"] = "Inicio";
+﻿@{
+    Layout = "_LayoutDeslogada";
+}
+@if (TempData["MessagemSucesso"] != null)
+{
+    <div class="alert alert-success text-dark" role="alert">
+        @TempData["MessagemSucesso"]
+    </div>
+}
+@if (TempData["MessagemErro"] != null)
+{
+    <div class="alert alert-danger text-dark" role="alert">
+        @TempData["MessagemErro"]
+    </div>
 }
 
-
-<div class="container p-5 rounded-5"
-    <div class="mb-3 text-center">
-
-<form>
-    <div class="mb-3">
-        <label for="exampleInputEmail1" class="form-label w-50">Email address</label>
-        <input type="email" class="form-control w-50" id="exampleInputEmail1" aria-describedby="emailHelp">
-    </div>
-    <div class="mb-3">
-        <label for="exampleInputPassword1" class="form-label w-50 ">Password</label>
-        <input type="password" class="form-control w-50 " id="exampleInputPassword1">
-    </div>
-    <div class="mb-3 form-check">
-        <input type="checkbox" class="form-check-input" id="exampleCheck1">
-        <label class="form-check-label" for="exampleCheck1">Login.</label>
-    </div>
-    <button type="submit" class="btn btn-primary">Login</button>
-</form>
-<div
+﻿@{
+    ViewData["Title"] = "Home Page";
+}

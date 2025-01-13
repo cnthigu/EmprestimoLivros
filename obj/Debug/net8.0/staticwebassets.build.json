@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "U+k3wTC/8pMmd/+A9V7Cn7cKSRQGobcMVec/W0jXmuE=",
+  "Hash": "1Lgt4XlbQ1Pk++VqBCCDeKZZkX9DY9i4mxp7WmtooMw=",
   "Source": "Emprestimos",
   "BasePath": "_content/Emprestimos",
   "Mode": "Default",
@@ -325,8 +325,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "agp80tu62r",
-      "Integrity": "JtktgiuQAd+AXerCnPMrHCDz1h5AtkH5tobvpuG7xZ4=",
+      "Fingerprint": "upk055a275",
+      "Integrity": "Hh6MKaanDdX4z0yq1Jjf/jl0CzygycCDDmTTez8rzKM=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
@@ -2490,51 +2490,6 @@
       ]
     },
     {
-      "Route": "lib/bootstrap/dist/css/bootstrap-grid.agp80tu62r.css",
-      "AssetFile": "C:\\Users\\HIGORV\\source\\repos\\Emprestimos\\Emprestimos\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "70538"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"JtktgiuQAd+AXerCnPMrHCDz1h5AtkH5tobvpuG7xZ4=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Thu, 09 Jan 2025 20:08:32 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "agp80tu62r"
-        },
-        {
-          "Name": "label",
-          "Value": "lib/bootstrap/dist/css/bootstrap-grid.css"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-JtktgiuQAd+AXerCnPMrHCDz1h5AtkH5tobvpuG7xZ4="
-        }
-      ]
-    },
-    {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.css",
       "AssetFile": "C:\\Users\\HIGORV\\source\\repos\\Emprestimos\\Emprestimos\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "Selectors": [],
@@ -2545,7 +2500,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "70538"
+          "Value": "70536"
         },
         {
           "Name": "Content-Type",
@@ -2553,11 +2508,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"JtktgiuQAd+AXerCnPMrHCDz1h5AtkH5tobvpuG7xZ4=\""
+          "Value": "\"Hh6MKaanDdX4z0yq1Jjf/jl0CzygycCDDmTTez8rzKM=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 09 Jan 2025 20:08:32 GMT"
+          "Value": "Mon, 13 Jan 2025 16:52:13 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2567,7 +2522,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-JtktgiuQAd+AXerCnPMrHCDz1h5AtkH5tobvpuG7xZ4="
+          "Value": "sha256-Hh6MKaanDdX4z0yq1Jjf/jl0CzygycCDDmTTez8rzKM="
         }
       ]
     },
@@ -3142,6 +3097,51 @@
         {
           "Name": "integrity",
           "Value": "sha256-3vUJkZSpKL/zG7x6GNvDjs0TxYUo9zMt6dAc8hp9CVo="
+        }
+      ]
+    },
+    {
+      "Route": "lib/bootstrap/dist/css/bootstrap-grid.upk055a275.css",
+      "AssetFile": "C:\\Users\\HIGORV\\source\\repos\\Emprestimos\\Emprestimos\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "70536"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Hh6MKaanDdX4z0yq1Jjf/jl0CzygycCDDmTTez8rzKM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 13 Jan 2025 16:52:13 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "upk055a275"
+        },
+        {
+          "Name": "label",
+          "Value": "lib/bootstrap/dist/css/bootstrap-grid.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Hh6MKaanDdX4z0yq1Jjf/jl0CzygycCDDmTTez8rzKM="
         }
       ]
     },

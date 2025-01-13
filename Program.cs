@@ -1,4 +1,7 @@
 using Emprestimos.Data;
+using Emprestimos.Services.LoginServices;
+using Emprestimos.Services.SenhaServices;
+using Emprestimos.Services.SessaoService;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Options;
 
@@ -17,7 +20,16 @@ builder.Services.AddDbContext<ApplicationDbContext>(options =>
     
     
  );
+builder.Services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();
+builder.Services.AddScoped<iSessaoInterface, SessaoService>();
+builder.Services.AddScoped<iLoginInterface, LoginService>();
+builder.Services.AddScoped<iSenhaInterface, SenhaService>();
 
+builder.Services.AddSession(options =>
+{
+    options.Cookie.HttpOnly = true;
+    options.Cookie.IsEssential = true;
+});
 
 var app = builder.Build();
 
@@ -36,9 +48,11 @@ app.UseRouting();
 
 app.UseAuthorization();
 
+app.UseSession();
+
 app.MapControllerRoute(
     name: "default",
-    pattern: "{controller=Home}/{action=Index}/{id?}");
+    pattern: "{controller=Login}/{action=Login}/{id?}");
 
 app.Run();
 

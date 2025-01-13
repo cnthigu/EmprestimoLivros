@@ -2,6 +2,7 @@
 using ClosedXML.Excel;
 using Emprestimos.Data;
 using Emprestimos.Models;
+using Emprestimos.Services.SessaoService;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Emprestimos.Controllers
@@ -10,30 +11,51 @@ namespace Emprestimos.Controllers
     {
 
         readonly private ApplicationDbContext _db;
+        readonly private iSessaoInterface _sessaoInterface;    
 
 
-        public EmprestimoController(ApplicationDbContext db)
+        public EmprestimoController(ApplicationDbContext db, iSessaoInterface sessaoInterface)
         {
             _db = db;
+            _sessaoInterface = sessaoInterface;
         }
 
 
         public IActionResult Index()
         {
 
+            var usuario = _sessaoInterface.BuscarSessao();
+
+            if (usuario == null)
+            {
+                return RedirectToAction("Login", "Login");
+            }
+
+
             IEnumerable<EmprestimosModel> Emprestimos = _db.Emprestimos;
-
-
             return View(Emprestimos);
         }
         [HttpGet]
         public IActionResult Cadastrar()
         {
+            var usuario = _sessaoInterface.BuscarSessao();
+
+            if (usuario == null)
+            {
+                return RedirectToAction("Login", "Login");
+            }
             return View();
         }
         [HttpGet]
         public IActionResult Editar(int? id)
         {
+            var usuario = _sessaoInterface.BuscarSessao();
+
+            if (usuario == null)
+            {
+                return RedirectToAction("Login", "Login");
+            }
+
             if (id == null || id == 0)
             {
                 return NotFound();
@@ -51,6 +73,14 @@ namespace Emprestimos.Controllers
         [HttpGet]
         public IActionResult Excluir(int? id)
         {
+
+            var usuario = _sessaoInterface.BuscarSessao();
+
+            if (usuario == null)
+            {
+                return RedirectToAction("Login", "Login");
+            }
+
             if (id == null || id == 0)
             {
                 return NotFound();

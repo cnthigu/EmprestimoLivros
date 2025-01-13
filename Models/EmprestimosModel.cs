@@ -11,7 +11,7 @@ namespace Emprestimos.Models
         public string Fornecedor { get; set; }  
         [Required(ErrorMessage = "Digite o nome do Livro.")]
         public string LivroEmprestimo { get; set; }
-        public DateTime DataDevolucao { get; set; } = DateTime.Now;
+        public DateTime DataDevolucao { get; set; }
     }
 }
 
