@@ -1,6 +1,6 @@
 # Emprestimo de livros
 
-Este é o meu primeiro projeto de controle para Emprestimo. Ele utiliza tecnologias como .NET Framework, ASP.NET Core MVC e SQL Server. O objetivo do projeto é fornecer uma interface para gerenciar as atividades de uma Biblioteca, com foco em facilitar a administração.
+Este é o meu primeiro projeto para Emprestimo de Livros. Ele utiliza tecnologias como .NET Framework, ASP.NET Core MVC e SQL Server. O objetivo do projeto é fornecer uma interface para gerenciar as atividades de uma Biblioteca, com foco em facilitar a administração.
 
 ## Descrição
 
@@ -17,7 +17,7 @@ Este sistema é um CRUD para o gerenciamento de uma biblioteca. Ele foi desenvol
 
 1. Clone o repositório:
     ```bash
-    git clone https://github.com/cnthigu/academiacontrol.git
+    git clone https://github.com/cnthigu/EmprestimoLivros.git
     ```
 
 2. Configuração do banco de dados:
